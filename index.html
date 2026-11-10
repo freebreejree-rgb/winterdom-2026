@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#090e21">
+  <meta name="description" content="Атракціони, ярмаркові смаколики й тисячі вогнів. Запрошення на Hamburg Winterdom — 6 листопада — 6 грудня 2026 року.">
+  <title>Winterdom 2026 — гайда на ярмарок</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23090e21'/%3E%3Ccircle cx='32' cy='27' r='20' fill='none' stroke='%23ff534d' stroke-width='4'/%3E%3Cpath d='M20 57 32 27 44 57M12 27h40M32 7v40' fill='none' stroke='%23ffd083' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+  <script type="module" src="rides.js"></script>
+</head>
+<body>
+  <a class="skip" href="#attractions">До атракціонів</a>
+  <header class="header wrap">
+    <a class="wordmark" href="#" aria-label="Winterdom — нагору">HAMBURG<span>WINTERDOM <b>2026</b></span></a>
+    <nav aria-label="Навігація"><a href="#attractions">Атракціони</a><a href="#food">Щось смачненьке</a></nav>
+    <button class="motion-toggle" aria-pressed="false" aria-label="Призупинити анімації"><span class="motion-icon">Ⅱ</span><span class="motion-label">Вогні та рух</span></button>
+  </header>
+  <main>
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="live-dot"></span> HAMBURG · 06.11 — 06.12.2026</p>
+        <h1 id="hero-title"><span class="hero-main-line">Гамбург</span><span class="hero-main-line">Двіжуха.</span><span class="hero-main-line hero-accent">Погнали?</span></h1>
+        <p class="hero-description">Сидіти дома - фу.<br>Двіжувати в Гамбургу - хелл йеа</p>
+        <a class="button primary" href="#invitation">Запрошую на Winterdom <span aria-hidden="true">↗</span></a>
+        <a class="scroll-note" href="#attractions"><span aria-hidden="true">↓</span> Листай, листай</a>
+      </div>
+      <div class="hero-art" aria-label="Осяяне вогнями оглядове колесо над нічним ярмарком" role="img">
+        <div class="orbit-label">ЗУСТРІНЕМОСЯ<br>СЕРЕД ВОГНІВ<span aria-hidden="true">✦</span></div>
+        <div id="hero-wheel" class="wheel-scene"></div>
+        <div class="hero-sign"><span>HEILIGENGEISTFELD</span><b>HAMBURG, ST. PAULI</b></div>
+        <span class="handwritten">нам точно сюди <svg viewBox="0 0 100 60" aria-hidden="true"><path d="M2 8Q75 0 78 48m-15-9 16 12 13-16"/></svg></span>
+      </div>
+      <div class="hero-bottom"><span>БІЛЬШЕ ВОГНІВ. БІЛЬШЕ АДРЕНАЛІНУ.</span><span>ЩЕ ОДНЕ КОЛО — І ПІДЕМО ПО БРЕЦЕЛІ. <i aria-hidden="true">✦</i></span></div>
+    </section>
+    <div class="marquee" aria-hidden="true"><div>ЩЕ ОДНЕ КОЛО <span>✦</span> ЩЕ ТРОХИ ЩАСТЯ <span>✦</span> HAMBURGER WINTERDOM <span>✦</span> ЩЕ ОДНЕ КОЛО <span>✦</span> ЩЕ ТРОХИ ЩАСТЯ <span>✦</span> HAMBURGER WINTERDOM <span>✦</span></div></div>
+    <section id="attractions" class="attractions wrap">
+      <div class="section-heading reveal"><p class="eyebrow">01 / ПЛАН НА ВЕЧІР</p><h2>Спочатку —<br>трохи ближче до неба.</h2><p>Жодних планів по хвилинах.<br>Просто йдемо туди, де яскравіше.</p></div>
+      <div class="ride-gallery">
+      <article class="ride ride-wheel reveal">
+        <div class="ride-art blue-art"><div id="second-wheel" class="wheel-scene" role="img" aria-label="Об’ємне оглядове колесо з рухомими кабінками та підсвічуванням"></div><span class="art-label">ГАМБУРГ З ВИСОТИ</span><span class="art-corner" aria-hidden="true">↗</span></div>
+        <div class="ride-copy"><span class="ride-number">01 <span>/ МУРАШКИ ВІД КРАЄВИДУ</span></span><h3>Колесо огляду</h3><p>Ввечері на таку хєрню сісти і глянути Гамбург звучить прям афігено.</p><span class="little-label"><i aria-hidden="true">✦</i> ОГЛЯДОВЕ КОЛЕСО</span></div>
+      </article>
+      <article class="ride reverse reveal">
+        <div class="ride-art red-art"><div id="swing-scene" role="img" aria-label="Тривимірна ланцюгова карусель із кріслами, що обертаються"></div><span class="art-label">НЕХАЙ ПАМОРОЧИТЬСЯ ГОЛОВА</span><span class="art-corner" aria-hidden="true">↻</span></div>
+        <div class="ride-copy"><span class="ride-number">02 <span>/ ВІТЕР У ВОЛОССІ</span></span><h3>Карусель</h3><p>Це прост чілова карусель, щоб покататись. Но звучить весело, а знач, нам туда надо.</p><span class="little-label"><i aria-hidden="true">✦</i> ЛАНЦЮГОВА КАРУСЕЛЬ</span></div>
+      </article>
+      <article class="ride reveal">
+        <div class="ride-art violet-art"><div id="tower-scene" role="img" aria-label="Об’ємна вежа вільного падіння з рухомою платформою"></div><span class="art-label">ВДИХ. ВИДИХ. А-А-А!</span><span class="art-corner" aria-hidden="true">↓</span></div>
+        <div class="ride-copy"><span class="ride-number">03 <span>/ ДЛЯ НАЙСМІЛИВІШИХ</span></span><h3>Якась огромна вишка</h3><p>Вот якщо ми підемо сюда і воно ще й все-таки підніметься, то це вже всьо... Тут вже навіть сомалійці в балаклавах не поможуть...</p><span class="little-label"><i aria-hidden="true">✦</i> ВІЛЬНЕ ПАДІННЯ</span></div>
+      </article>
+      </div>
+    </section>
+    <section id="food" class="food-section">
+      <div class="wrap">
+        <div class="food-heading reveal"><div><p class="eyebrow">02 / ОБОВ’ЯЗКОВА ЗУПИНКА</p><h2>Тут навіть<br><span>поїсти можна</span></h2></div><p>Хез, нащо щось крім атракціонів, але да, знай, тут навіть таке є. Тикни на цей надпис - буде бонус+</p></div>
+        <div class="food-grid">
+          <article class="food-item reveal"><div id="almond-art" class="food-art"></div><span class="food-de">МИГДАЛЬ У КАРАМЕЛІ</span><h3>Теплий мигдаль</h3><p>Звучить странно, но вкусно. Ну кароче, щось круте</p></article>
+          <article class="food-item reveal"><div id="pretzel-art" class="food-art"></div><span class="food-de">СВІЖІ БРЕЦЕЛІ</span><h3>Свіжий брецель</h3><p>Ну брецель - це база</p></article>
+          <article class="food-item reveal"><div id="cup-art" class="food-art"></div><span class="food-de">ГАРЯЧИЙ НАПІЙ</span><h3>Перерва на какао</h3><p>А вот какао - це пік нашого суспільства. Особливо в таку двіжуху</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="interlude wrap reveal"><span aria-hidden="true">✦</span><p>План простий:<br>кататися, їсти, <em>повторювати.</em></p><span aria-hidden="true">✦</span></section>
+    <section id="invitation" class="invitation wrap">
+      <div class="ticket reveal"><div class="ticket-top"><span>ЗАПРОШЕННЯ ДЛЯ ТЕБЕ</span><span>WINTERDOM · 2026</span></div><div class="ticket-main"><span class="ticket-star" aria-hidden="true">✷</span><p class="eyebrow">АТРАКЦІОНИ. СМАКОЛИКИ. ТИСЯЧІ ВОГНІВ.</p><h2>Підемо туди?</h2><p class="invite-description">Обіцяю гарну компанію.<br>А все інше вже світиться й крутиться.</p><div class="answer-buttons"><button id="yes" class="button yes">Так <span aria-hidden="true">↗</span></button><button id="no" class="button no">Ні <span aria-hidden="true">↘</span></button></div><div id="answer" class="answer" role="status" aria-live="polite" tabindex="-1"></div><button id="reset" class="reset" hidden>Змінити відповідь</button></div><div class="ticket-bottom"><span>HAMBURG WINTERDOM 2026</span><span>06 ЛИС — 06 ГРУ</span><span class="barcode" aria-hidden="true"></span></div></div>
+      <p class="invitation-note">День і час узгодимо. Залишилося вирішити — йдемо?</p>
+    </section>
+  </main>
+  <footer class="footer wrap"><a class="wordmark" href="#">ДО ЗУСТРІЧІ<span>СЕРЕД ВОГНІВ <b>↗</b></span></a><p>План на вечір у Гамбурзі.<br>Неофіційна сторінка заходу.</p><a href="https://www.hamburg.de/freizeit/dom/termine-337422" target="_blank" rel="noopener noreferrer">Офіційно про DOM ↗</a></footer>
+  <div id="confetti" class="confetti" aria-hidden="true"></div>
+</body>
+</html>
